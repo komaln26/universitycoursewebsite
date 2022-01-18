@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="width = device-width, initial scale=1.0">
+        <title>Univeral website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">    </head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo7.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!--courses-->
+    <section class="course">
+        <h1>Courses </h1>
+        <p>Your learning experience is grounded in cutting edge cognitive science. With many distinct learning features to help you achieve your goal. </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Get practical, in-depth education in Data Science and core business areas such as marketing, finance, operations, human resources management and accounting </p>
+
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Gain the recognition of degree with a future ready elective in Machine learning/Artifical intelligence or in any field of interest. Learn how to code using incredibly useful languages</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>With a degree in Business Administration, you can pursue the in-demand Master of Business Administration programs, in the future.</p>
+
+            </div>
+        </div>
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p>Facilities across out three campuses give you the chance to pursue your interests and meet people from across the university</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library1.jpg">
+                <h3>World class Library</h3>
+                <p>Libraries in all our campuses contain books, DVD's that cover a spectrum of subjects and satisfies the students urge to study.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball1.jpg">
+                <h3>Sports and fitness classes</h3>
+                <p>Take your exercise into the fresh air in our 30 acres of outdoor sport area including two rugby pitches. Plus, our arrangement with gym designed to inspire and motivate you to get fit and healthy. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafe.jpg">
+                <h3>Tasty and healthy food</h3>
+                <p>The canteens shall offer a rich menu of food items catering to needs of all students. They will operate under high standards of food quality and hygiene.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Making website is now one of the easiest thing in the world.Making website is now one of the easiest thing in the world.</p>   
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i> 
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i>  
+        </div>
+        
+    </section>
+    <!--js script for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+</body>
+</html>

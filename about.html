@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="width = device-width, initial scale=1.0">
+        <title>Univeral website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">    </head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo7.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!---about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Our prospectus outlines everything you need to know about being a UL student. It is full of information on the facilities and academic supports available to students, as well as the more social aspects of student life such as clubs & societies for you to join and much more. Most importantly, our prospectus also has a full outline of every course we have to offer. University holds examinations, grants degrees, generates knowledge and confers diverse academic distinctions on persons who pursue approved courses of study in the University or in constituent colleges/institutions approved for the purpose also for those who appear as external/private candidates. It also confers honorary degrees or other distinctions on the persons of exceptional caliber. The University also admits, maintains, recognizes, affiliates colleges and other institutions. It is primarily a research, teaching, affiliating, examining body involved in promotion of arts, science and other branches of learning. The University is open to all classes and creeds with the sole objective to carry people from darkness to light.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about2.jpg">
+            </div>
+        </div>
+
+
+    </section>
+    <!--footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Making website is now one of the easiest thing in the world.Making website is now one of the easiest thing in the world.</p>   
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i> 
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i> 
+        </div>
+        
+    </section>
+    <!--js script for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+</body>
+</html>

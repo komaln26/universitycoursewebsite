@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content="width = device-width, initial scale=1.0">
+        <title>Univeral website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">    </head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo7.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Certificates & Online Programs </h1>
+    </section>
+    <!---blog content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate2.jpg">
+                <h2>Our Certificates & Online programs for 2022</h2>
+                <p>By immersing yourself in a cohort-based learning experience where you'll participate in live, expert instruction, you'll be able to build your network and gain insights and advice from other working professionals.</p>
+                <br>
+                <p>Upon successful completion of your certificate program, you'll earn a university-issued certificate from a leading university that you can add to your resume and LinkedIn profile.</p>
+                <br>
+                <p>You'll be able to demonstrate how you've advanced your skills through real-world projects and create work samples that help you stand out to current or potential employers.</p>
+                <br>
+                <p>Grab a front row seat to research and teaching at Stanford through engaging learning experiences taught by experts in the field. Choose from free content, professional education, credit-bearing programs and graduate degrees. Take courses online, part-time, and/or at your own pace, while connecting with faculty and learners around the world. With our online programs, you get the best of both worlds- the comfort & flexibility of online education, with the equivalence that is acquired through an on-campus, conventional Degree.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Autocad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--footer-->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Making website is now one of the easiest thing in the world.Making website is now one of the easiest thing in the world.</p>   
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i> 
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-instagram"></i> 
+        </div>
+        
+    </section>
+    <!--js script for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+
+        }
+    </script>
+</body>
+</html>
